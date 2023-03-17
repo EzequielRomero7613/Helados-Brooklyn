@@ -1,3 +1,8 @@
+const hoy = new Date();
+
+
+
+
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
@@ -37,4 +42,7 @@ function pedidos(){
 }
 
 
+function fecha(){
+  console.log(hoy);
+}
 
